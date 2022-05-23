@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { store } from "./store/store";
 
 render(
-  <BrowserRouter>
+  <BrowserRouter basename="goScrum-alkemy-skill-up">
     <Provider store={store}>
       <App />
     </Provider>
